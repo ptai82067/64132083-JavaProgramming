@@ -12,10 +12,10 @@ public class MainChanLe {
             try {
                 System.out.println("Nhập một số nguyên: ");
                 a = scanner.nextInt();
-                break; // Thoát khỏi vòng lặp nếu nhập đúng số nguyên
+                break; 
             } catch (InputMismatchException e) {
                 System.out.println("Vui lòng nhập một số nguyên hợp lệ.");
-                scanner.next(); // Xóa đầu vào không hợp lệ
+                scanner.next(); 
             }
         }
         

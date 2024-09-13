@@ -13,10 +13,14 @@ public class MainBMI {
             try {
                 System.out.println("Nhập chiều cao (m):");
                 chieuCao = scanner.nextDouble();
-                break; // Thoát khỏi vòng lặp nếu nhập đúng số
+                if(1.0 < chieuCao && chieuCao < 2.2)
+                break;
+                else{
+                	System.out.println("Chiều cao không hợp lý, vui lòng nhập lại");
+                }
             } catch (InputMismatchException e) {
                 System.out.println("Vui lòng nhập một số hợp lệ.");
-                scanner.next(); // Xóa đầu vào không hợp lệ
+                scanner.next();
             }
         }
         
@@ -24,10 +28,14 @@ public class MainBMI {
             try {
                 System.out.println("Nhập cân nặng (kg):");
                 canNang = scanner.nextDouble();
-                break; // Thoát khỏi vòng lặp nếu nhập đúng số
+                if(2 < canNang && canNang < 200)
+                    break;
+                    else{
+                    	System.out.println("Cân nặng không hợp lý, vui lòng nhập lại");
+                    }
             } catch (InputMismatchException e) {
                 System.out.println("Vui lòng nhập một số hợp lệ.");
-                scanner.next(); // Xóa đầu vào không hợp lệ
+                scanner.next();
             }
         }
         

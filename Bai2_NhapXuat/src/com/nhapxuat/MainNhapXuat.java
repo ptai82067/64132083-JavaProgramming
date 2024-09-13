@@ -11,7 +11,6 @@ public class MainNhapXuat {
         System.out.println("******************************");
         System.out.println("*    Chương trình tính tổng   *");
         System.out.println("******************************");
-     // Dùng câu lệnh try catch để kiểm tra dữ liệu nhập vào từ bàn phím
         while (a == null) {
             try {
                 System.out.print("Nhập số a: ");
