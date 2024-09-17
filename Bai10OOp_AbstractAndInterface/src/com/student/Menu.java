@@ -32,7 +32,7 @@ public class Menu {
 		                    System.out.printf("Semester: ");
 		                    semester = scanner.nextInt();
 		                    scanner.nextLine();
-		                    news.setSemester(i);
+		                    news.setSemester(semester);
 		                    System.out.printf("Class: ");
 		                    ip = scanner.nextLine();
 		                    news.setClass(ip);
@@ -88,10 +88,7 @@ public class Menu {
 		        }
 		    }
 
-		    public static void main(String[] args) {
-		        Menu menu = new Menu();
-		        menu.menu();
-		    }
+		   
 	}
 
 
