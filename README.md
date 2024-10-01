@@ -1,6 +1,6 @@
 ### Giới thiệu về JSON
 
-*** JSON (JavaScript Object Notation) là một định dạng nhẹ để trao đổi dữ liệu, dễ đọc và viết cho con người cũng như dễ phân tích và sinh ra cho máy móc. Trong Java, JSON thường được sử dụng để chuyển đổi giữa dữ liệu dạng JSON và các đối tượng Java. ***
+***JSON (JavaScript Object Notation) là một định dạng nhẹ để trao đổi dữ liệu, dễ đọc và viết cho con người cũng như dễ phân tích và sinh ra cho máy móc. Trong Java, JSON thường được sử dụng để chuyển đổi giữa dữ liệu dạng JSON và các đối tượng Java.***
 
 ### So sánh tổng quát giữa các thư viện JSON
 
