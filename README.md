@@ -5,6 +5,22 @@
 | **Jackson**  | Hiệu suất cao, mạnh mẽ      | Rất nhanh, hỗ trợ định dạng khác ngoài JSON   | Cấu hình phức tạp hơn                      | Khi cần hiệu suất cao, hoặc xử lý JSON phức tạp |
 | **JSON-B**   | Tích hợp với Java EE        | Tích hợp tốt với Java EE, chuẩn hóa          | Ít phổ biến, tính năng còn hạn chế           | Khi làm việc với Java EE |
 | **org.json** | Đơn giản                   | Rất nhẹ và dễ sử dụng                        | Không hỗ trợ chuyển đổi đối tượng Java phức tạp | Khi chỉ cần các tác vụ JSON cơ bản |
+
+
+### Dependencies for working with JSON in Maven
+
+To work with JSON in Java using Maven, you can add the following dependencies to your `pom.xml` file:
+
+#### 1. Gson
+```xml
+<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.9.0</version> <!-- Latest version -->
+</dependency>
+
+
+
  
  # Giới thiệu về Java
 
