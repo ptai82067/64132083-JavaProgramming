@@ -21,17 +21,36 @@
 ```
 #### 2. json-simple
 ```xml
-
+<dependency>
+        <groupId>com.googlecode.json-simple</groupId>
+        <artifactId>json-simple</artifactId>
+        <version>1.1.1</version>
+</dependency>
 ```
-#### 3. Jackson(Core Libraries)
+#### 3. Jackson Databind
 ```xml
-
+<dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.15.0</version>
+</dependency>
 ```
-#### 4. JSON-B(Jakarta)
+#### 4. JSON-B
 ```xml
-
+<dependency>
+        <groupId>jakarta.json.bind</groupId>
+        <artifactId>jakarta.json.bind-api</artifactId>
+        <version>2.0.0</version>
+</dependency>
 ```
-
+#### 5. org.json
+```xml
+<dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20220320</version>
+</dependency>
+```
 
  
  # Giới thiệu về Java
