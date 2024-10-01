@@ -5,12 +5,11 @@ public class App1 {
 	public static void main(String[] args) {
 		JSONObject jsonObject = new JSONObject();
 
-        // Thêm các cặp key-value vào JSON
-        jsonObject.put("name", "John");
-        jsonObject.put("age", 25);
-        jsonObject.put("city", "New York");
+        
+        jsonObject.put("name", "Phạm Phước Lộc");
+        jsonObject.put("age", 42);
+        jsonObject.put("city", "Phú Yên");
 
-        // In ra chuỗi JSON
         System.out.println(jsonObject.toJSONString());
 	}
 	
