@@ -7,9 +7,9 @@
 | **org.json** | Đơn giản                   | Rất nhẹ và dễ sử dụng                        | Không hỗ trợ chuyển đổi đối tượng Java phức tạp | Khi chỉ cần các tác vụ JSON cơ bản |
 
 
-### Dependencies for working with JSON in Maven
+### Các Dependencies để làm việc với JSON trong Maven
 
-To work with JSON in Java using Maven, you can add the following dependencies to your `pom.xml` file:
+Để làm việc với Json trong Maven, bạn có thể thêm các dependencies ở dưới vào trong file `pom.xml`:
 
 #### 1. Gson
 ```xml
@@ -18,6 +18,18 @@ To work with JSON in Java using Maven, you can add the following dependencies to
     <artifactId>gson</artifactId>
     <version>2.9.0</version> <!-- Latest version -->
 </dependency>
+```
+#### 2. json-simple
+```xml
+
+```
+#### 3. Jackson(Core Libraries)
+```xml
+
+```
+#### 4. JSON-B(Jakarta)
+```xml
+
 ```
 
 
