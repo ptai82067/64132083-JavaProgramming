@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Báo dân trí</title>
+    <link>https://list.com</link>
+    <description>Những tin mới nhất từ báo dân trí</description>
+    <pubDate>Fri, 04 Oct 2024 04:02:12 GMT</pubDate>
+    <dc:date>2024-10-04T04:02:12Z</dc:date>
+    <item>
+      <title>Vụ án nghệ sĩ ăn chặn tiền từ thiện</title>
+      <link>https://item1.com</link>
+      <description>Nghi ngờ nghệ sĩ hoài linh ăn chặn 14 tỷ đồng từ mạnh thường quân, khiến cư dân mạng bức xúc</description>
+      <pubDate>Fri, 04 Oct 2024 04:02:12 GMT</pubDate>
+      <guid>https://item1.com</guid>
+      <dc:date>2024-10-04T04:02:12Z</dc:date>
+    </item>
+    <item>
+      <title>Vụ việc cô giáo xin tiền của phụ huynh</title>
+      <link>https://item2.com</link>
+      <description>Mới đây vụ việc cô giáo xin tiền phụ huynh đã khiến dân mạng nghi ngờ hình ảnh giáo viên thời nay đang biến chất</description>
+      <pubDate>Fri, 04 Oct 2024 04:02:12 GMT</pubDate>
+      <guid>https://item2.com</guid>
+      <dc:date>2024-10-04T04:02:12Z</dc:date>
+    </item>
+  </channel>
+</rss>
