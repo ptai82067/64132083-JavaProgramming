@@ -28,7 +28,7 @@ Mã ví dụ cũng bao gồm cách đọc một RSS feed từ file XML, phân t�
     <dependency>
         <groupId>rome</groupId>
         <artifactId>rome</artifactId>
-        <version>1.0</version>
+        <version>2.1.0</version>
     </dependency>
     ```
 
