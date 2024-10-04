@@ -22,11 +22,7 @@ Mã ví dụ cũng bao gồm cách đọc một RSS feed từ file XML, phân t�
 - **ROME**: Thư viện Java để tạo, đọc và xử lý RSS feed và Atom.
 
 ## Hướng dẫn cài đặt
-1. Clone repository:
-    ```bash
-    git clone https://github.com/your-repo/rss-xml-java.git
-    ```
-2. Cài đặt thư viện ROME:
+1. Cài đặt thư viện ROME:
     Nếu sử dụng Maven, thêm phụ thuộc sau vào `pom.xml`:
     ```xml
     <dependency>
