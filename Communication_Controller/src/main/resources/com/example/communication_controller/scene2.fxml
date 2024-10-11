@@ -6,14 +6,19 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.communication_controller.Scene2Controller">
+<AnchorPane fx:id="sceneAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.communication_controller.Scene2Controller">
    <children>
       <Label fx:id="lb2" layoutX="136.0" layoutY="48.0" text="Hello: ">
          <font>
             <Font size="29.0" />
          </font>
       </Label>
-      <Button layoutX="254.0" layoutY="156.0" mnemonicParsing="false" onAction="#back" text="Back">
+      <Button layoutX="143.0" layoutY="157.0" mnemonicParsing="false" onAction="#back" text="Back">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="368.0" layoutY="157.0" mnemonicParsing="false" onAction="#exit" text="Exit">
          <font>
             <Font size="20.0" />
          </font>

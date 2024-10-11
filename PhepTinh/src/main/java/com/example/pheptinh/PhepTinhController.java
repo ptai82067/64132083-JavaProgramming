@@ -11,6 +11,7 @@ public class PhepTinhController {
   @FXML
   Button btnCong, btnTru, btnNhan, btnChia;
 
+
   public void ptCong(ActionEvent event){
     int a = Integer.parseInt(tfA.getText());
     int b = Integer.parseInt(tfB.getText());
