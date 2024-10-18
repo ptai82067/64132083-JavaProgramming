@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="543.0" prefWidth="805.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.requestapi_javafx.HelloController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="26.0" prefHeight="50.0" prefWidth="799.0" text="KIẾN THỨC THÚ VỊ">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+      <Label layoutX="74.0" layoutY="88.0" text="Nhập api của bạn :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf_api" layoutX="266.0" layoutY="88.0" prefHeight="31.0" prefWidth="419.0">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </TextField>
+      <Button layoutX="319.0" layoutY="168.0" mnemonicParsing="false" onAction="#onGetAPI" prefHeight="31.0" prefWidth="183.0" style="-fx-background-color: blue;" text="Gọi API" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="74.0" layoutY="272.0" prefHeight="30.0" prefWidth="85.0" text="Fact :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="336.0" prefHeight="30.0" prefWidth="85.0" text="Length :">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lb_fact" layoutX="205.0" layoutY="277.0" text="Label" textFill="RED">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lb_length" layoutX="204.0" layoutY="341.0" text="Label" textFill="RED">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="446.0" prefHeight="30.0" prefWidth="108.0" text="Link gợi ý: ">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lb_length1" layoutX="204.0" layoutY="451.0" text="https://catfact.ninja/facthttps://catfact.ninja/fact" textFill="#1a01f8">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
