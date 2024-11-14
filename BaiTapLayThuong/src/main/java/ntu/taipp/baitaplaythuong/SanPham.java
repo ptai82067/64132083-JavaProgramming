@@ -1,7 +1,7 @@
 package ntu.taipp.baitaplaythuong;
 
-public class SanPham {
-  private int id;
+public class SanPham extends DBObject {
+
   private String tenSP;
   private float giaSP;
   private String moTa;
@@ -12,22 +12,15 @@ public class SanPham {
     this.moTa = moTa;
   }
 
-  public SanPham(int id, String tenSP, float giaSP, String moTa) {
-    this.id = id;
-    this.tenSP = tenSP;
+  public SanPham(int id , String tenSP,float giaSP, String moTa) {
+    super();
+    super.setId(id);
     this.giaSP = giaSP;
+    this.tenSP = tenSP;
     this.moTa = moTa;
   }
 
   public SanPham() {
-  }
-
-  public int getId() {
-    return id;
-  }
-
-  public void setId(int id) {
-    this.id = id;
   }
 
   public String getTenSP() {
@@ -57,7 +50,7 @@ public class SanPham {
   @Override
   public String toString() {
     return "SanPham{" +
-            "id=" + id +
+            "id=" + super.getId() +
             ", tenSP='" + tenSP + '\'' +
             ", giaSP=" + giaSP +
             ", moTa='" + moTa + '\'' +

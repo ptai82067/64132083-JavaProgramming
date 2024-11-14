@@ -19,11 +19,13 @@ public class HelloApplication extends Application {
   }
 
   public static void main(String[] args) {
-    SanPham sanPham = new SanPham("Motobike",2000,"Phong cách người chơi");
+    SanPham sanPham = new SanPham(14,"Motobike123123",2000,"Phong cách người chơi");
     DatabaseTemplate<SanPham> SanPhamDB = new DatabaseTemplate<>();
-//    SanPhamDB.save(sanPham);
-    List<SanPham> list = SanPhamDB.query(SanPham.class);
-    System.out.println(list.get(0));
+    SanPhamDB.update(sanPham);
+//    List<SanPham> list = SanPhamDB.query(SanPham.class);
+//    System.out.println(list.get(0));
+//    System.out.println(list.get(1));
+//    System.out.println(list.get(2));
     launch();
   }
 }

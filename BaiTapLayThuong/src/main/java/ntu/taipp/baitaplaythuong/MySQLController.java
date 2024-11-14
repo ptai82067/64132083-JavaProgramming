@@ -50,15 +50,17 @@ public class MySQLController implements Initializable {
     SanPhamDB.save(sp);
   }
 
+  ObservableList<SanPham> initialData(){
+    List<SanPham> list = SanPhamDB.query(SanPham.class);
+    return FXCollections.observableArrayList(list);
+  }
+  
   @FXML
   void onQuery(ActionEvent event) {
     table.setItems(initialData());
   }
 
-  ObservableList<SanPham> initialData(){
-    List<SanPham> list = SanPhamDB.query(SanPham.class);
-    return FXCollections.observableArrayList(list);
-  }
+
   @Override
   public void initialize(URL url, ResourceBundle resourceBundle) {
     id.setCellValueFactory(new PropertyValueFactory<SanPham, Integer>("id"));

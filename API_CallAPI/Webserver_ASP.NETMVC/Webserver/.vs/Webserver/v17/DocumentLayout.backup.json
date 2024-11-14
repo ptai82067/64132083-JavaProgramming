@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|c:\\users\\lenovo\\desktop\\64cntt-clc2\\hk1_nam3\\java\\myproject\\api_callapi\\webserver_asp.netmvc\\webserver\\webserver\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|solutionrelative:webserver\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\webserver\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|solutionrelative:webserver\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\webserver\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|solutionrelative:webserver\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\webserver\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|solutionrelative:webserver\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+      "AbsoluteMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\webserver\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|solutionrelative:webserver\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\webserver\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -23,16 +19,20 @@
       "RelativeMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|solutionrelative:webserver\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\webserver\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\webserver\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|solutionrelative:webserver\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|c:\\users\\lenovo\\desktop\\64cntt-clc2\\hk1_nam3\\java\\myproject\\api_callapi\\webserver_asp.netmvc\\webserver\\webserver\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|solutionrelative:webserver\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\webserver\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|solutionrelative:webserver\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\webserver\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|solutionrelative:webserver\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\webserver\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|solutionrelative:webserver\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\webserver\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{92FEB22C-3BB3-4587-B9D9-719BA15A5E0F}|Webserver\\Webserver.csproj|solutionrelative:webserver\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\Webserver\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Webserver\\Controllers\\HomeController.cs",
@@ -55,24 +55,26 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T03:09:29.571Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "ValuesController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\Webserver\\Controllers\\ValuesController.cs",
               "RelativeDocumentMoniker": "Webserver\\Controllers\\ValuesController.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\Webserver\\Controllers\\ValuesController.cs",
               "RelativeToolTip": "Webserver\\Controllers\\ValuesController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA1wB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T03:09:23.78Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\Webserver\\packages.config",
               "RelativeDocumentMoniker": "Webserver\\packages.config",
@@ -84,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "favicon.ico - Icon [16x16, 32 bit, BMP]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\Webserver\\favicon.ico",
               "RelativeDocumentMoniker": "Webserver\\favicon.ico",
@@ -95,19 +97,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\Webserver\\Views\\Web.config",
               "RelativeDocumentMoniker": "Webserver\\Views\\Web.config",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\Webserver\\Views\\Web.config",
               "RelativeToolTip": "Webserver\\Views\\Web.config",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAjwB8AAABoAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAjwB8AAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-12T05:34:23.098Z"
+              "WhenOpened": "2024-10-12T05:34:23.098Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\Webserver\\Web.config",
               "RelativeDocumentMoniker": "Webserver\\Web.config",
@@ -120,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\Webserver\\Global.asax.cs",
               "RelativeDocumentMoniker": "Webserver\\Global.asax.cs",
@@ -128,7 +131,8 @@
               "RelativeToolTip": "Webserver\\Global.asax.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T05:33:37.003Z"
+              "WhenOpened": "2024-10-12T05:33:37.003Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -138,9 +142,10 @@
               "RelativeDocumentMoniker": "Webserver\\Models\\Employee.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\64CNTT-CLC2\\HK1_Nam3\\JAVA\\MyProject\\API_CallAPI\\Webserver_ASP.NETMVC\\Webserver\\Webserver\\Models\\Employee.cs",
               "RelativeToolTip": "Webserver\\Models\\Employee.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T04:30:15.69Z"
+              "WhenOpened": "2024-10-12T04:30:15.69Z",
+              "EditorCaption": ""
             }
           ]
         }

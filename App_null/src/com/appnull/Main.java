@@ -1,24 +1,33 @@
 package com.appnull;
-
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.nio.charset.StandardCharsets;
 
 public class Main {
-	public static void main(String[] args) {
-		Map<String,String> dstd = new HashMap<String, String>();
-		dstd.put("Hello", "Xin Chào");
-		dstd.put("Go", "Đi");
-		dstd.put("Move", "Di Chuyển");
-		dstd.put("Buy", "Mua");
-		dstd.put("Good", "Tốt");
-		dstd.put("Bad", "Tệ");
-		dstd.put("Clear", "làm sạch");
-		dstd.put("You", "Bạn");
-		dstd.put("Love", "Yêu");
-		dstd.put("I", "Tôi");
-		Scanner s = new Scanner(System.in);
-		String S = s.nextLine();
-		System.out.println(dstd.get(S));
-	}
+    public static void main(String[] args) {
+        try {
+            URL url = new URL("http://localhost:51545/api/values");
+            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+            conn.setDoOutput(true);
+            conn.setRequestMethod("POST");
+            conn.setRequestProperty("Content-Type", "application/json");
+
+            // Dữ liệu JSON gửi qua API
+            String jsonInputString = "{\"id\":3,\"name\":\"Alice\",\"position\":\"Tester\"}";
+
+            // Gửi dữ liệu
+            try(OutputStream os = conn.getOutputStream()) {
+                byte[] input = jsonInputString.getBytes(StandardCharsets.UTF_8);
+                os.write(input, 0, input.length);
+            }
+
+            // Kiểm tra phản hồi từ API
+            int responseCode = conn.getResponseCode();
+            System.out.println("POST Response Code :: " + responseCode);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }

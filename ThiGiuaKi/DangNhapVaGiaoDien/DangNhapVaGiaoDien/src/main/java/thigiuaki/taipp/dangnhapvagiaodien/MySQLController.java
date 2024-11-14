@@ -5,10 +5,7 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
-import javafx.scene.control.TextArea;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.net.URL;
@@ -54,7 +51,11 @@ public class MySQLController implements Initializable {
 
   @FXML
   void onQuery(ActionEvent event) {
-    table.setItems(initialData());
+    Alert alert = new Alert(Alert.AlertType.ERROR);
+    alert.setTitle("Lỗi Đăng Nhập");
+    alert.setHeaderText(null);
+    alert.setContentText("Tài khoản hoặc mật khẩu không chính xác, vui lòng nhập lại !!!");
+    alert.showAndWait();
   }
 
 

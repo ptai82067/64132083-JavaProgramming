@@ -21,10 +21,11 @@ public class Main {
 		ResultSet ketQua = lenh.executeQuery(sqlSelect);
 		// hiện kết quả
 		while(ketQua.next()) {
-			System.out.println("Id: "+ketQua.getInt("id") + " Tên sản phẩm: "+ketQua.getString("TenSP")
-			+ " Giá SP: "+ketQua.getFloat("GiaSP")
-			+ " Mô tả: "+ketQua.getString("MoTa"));
+			System.out.println("Id: "+ketQua.getInt("id") + " Tên sản phẩm: "+ketQua.getString("tensp")
+			+ " Giá SP: "+ketQua.getFloat("Giasp")
+			+ " Mô tả: "+ketQua.getString("mota"));
 			
 		}
+		
 	}
 }
