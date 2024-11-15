@@ -58,7 +58,7 @@ public class HelloApplication extends Application {
         innerTriangle.setFill(Color.TRANSPARENT);
 
         // Vẽ thân hình (hình cung)
-        Arc bodyArc = new Arc(150, 210, 100, 50, 180, 180);
+        Arc bodyArc = new Arc(150, 200, 100, 50, 180, 180);
         bodyArc.setStroke(Color.BLACK);
         bodyArc.setFill(Color.TRANSPARENT);
         bodyArc.setType(ArcType.OPEN);
