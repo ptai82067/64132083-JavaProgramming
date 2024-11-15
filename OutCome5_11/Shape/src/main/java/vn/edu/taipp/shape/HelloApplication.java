@@ -5,6 +5,8 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
+import javafx.scene.shape.Arc;
+import javafx.scene.shape.Circle;
 import javafx.scene.shape.Polygon;
 import javafx.stage.Stage;
 
@@ -23,6 +25,7 @@ public class HelloApplication extends Application {
         mainTriangle.setStroke(Color.BLACK);
         mainTriangle.setFill(Color.WHITE);
 
+        // Vẽ tai trái
         Polygon leftEar = new Polygon();
         leftEar.getPoints().addAll(
                 100.0, 100.0,
@@ -31,6 +34,17 @@ public class HelloApplication extends Application {
         );
         leftEar.setStroke(Color.BLACK);
         leftEar.setFill(Color.WHITE);
+
+        // Vẽ tai phải
+        Polygon rightEar = new Polygon();
+        rightEar.getPoints().addAll(
+                200.0, 100.0,
+                180.0, 50.0,
+                160.0, 100.0
+        );
+        rightEar.setStroke(Color.BLACK);
+        rightEar.setFill(Color.WHITE);
+
 
         Scene scene = new Scene(pane, 300, 300);
         stage.setTitle("Vẽ Hình");
