@@ -51,12 +51,12 @@ public class HelloApplication extends Application {
         Polygon innerTriangle = new Polygon();
         innerTriangle.getPoints().addAll(
                 150.0, 130.0, // Điểm đỉnh
-                140.0, 160.0, // Góc trái
-                160.0, 160.0  // Góc phải
+                130.0, 170.0, // Góc trái (di chuyển gần hơn)
+                170.0, 170.0
         );
         innerTriangle.setStroke(Color.RED);
         innerTriangle.setFill(Color.TRANSPARENT);
-
+        innerTriangle.setRotate(180);
         // Vẽ thân hình (hình cung)
         Arc bodyArc = new Arc(150, 200, 100, 50, 180, 180);
         bodyArc.setStroke(Color.BLACK);
@@ -64,34 +64,34 @@ public class HelloApplication extends Application {
         bodyArc.setType(ArcType.OPEN);
 
         // Vẽ chân trái
-        Circle leftFoot = new Circle(110, 265, 20);
+        Circle leftFoot = new Circle(110, 245, 20);
         leftFoot.setStroke(Color.BLACK);
         leftFoot.setFill(Color.TRANSPARENT);
 
         // Vẽ chân phải
-        Circle rightFoot = new Circle(190, 265, 20);
+        Circle rightFoot = new Circle(190, 245, 20);
         rightFoot.setStroke(Color.BLACK);
         rightFoot.setFill(Color.TRANSPARENT);
 
         // Vẽ trang trí trên chân trái (hình cung nửa trên)
-        Arc leftFootDetailTop = new Arc(110, 260, 10, 10, 0, 180);
+        Arc leftFootDetailTop = new Arc(110, 250, 10, 10, 0, 180);
         leftFootDetailTop.setStroke(Color.RED);
         leftFootDetailTop.setFill(Color.TRANSPARENT);
         leftFootDetailTop.setType(ArcType.OPEN);
 
 // Vẽ trang trí trên chân trái (hình cung nửa dưới)
-        Arc leftFootDetailBottom = new Arc(110, 260, 10, 10, 180, 180);
+        Arc leftFootDetailBottom = new Arc(110, 250, 10, 10, 180, 180);
         leftFootDetailBottom.setStroke(Color.RED);
         leftFootDetailBottom.setFill(Color.TRANSPARENT);
         leftFootDetailBottom.setType(ArcType.OPEN);
 
         // Vẽ trang trí trên chân phải (hình cung)
-        Arc rightFootDetailTop = new Arc(190, 260, 10, 10, 0, 180);
+        Arc rightFootDetailTop = new Arc(190, 250, 10, 10, 0, 180);
         rightFootDetailTop.setStroke(Color.RED);
         rightFootDetailTop.setFill(Color.TRANSPARENT);
         rightFootDetailTop.setType(ArcType.OPEN);
 
-        Arc rightFootDetailBottom = new Arc(190, 260, 10, 10, 180, 180);
+        Arc rightFootDetailBottom = new Arc(190, 250, 10, 10, 180, 180);
         rightFootDetailBottom.setStroke(Color.RED);
         rightFootDetailBottom.setFill(Color.TRANSPARENT);
         rightFootDetailBottom.setType(ArcType.OPEN);
