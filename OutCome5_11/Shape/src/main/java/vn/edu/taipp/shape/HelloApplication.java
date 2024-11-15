@@ -75,12 +75,12 @@ public class HelloApplication extends Application {
         leftFootDetail.setStroke(Color.RED);
         leftFootDetail.setFill(Color.TRANSPARENT);
 
-        // Vẽ trang trí trên chân phải (hình cung) 
+        // Vẽ trang trí trên chân phải (hình cung)
         Arc rightFootDetail = new Arc(190, 250, 10, 10, 0, 180);
         rightFootDetail.setStroke(Color.RED);
         rightFootDetail.setFill(Color.TRANSPARENT);
 
-        // Thêm tất cả các phần tử vào pane
+        // Thêm tất cả các phần tử vào pane 
         pane.getChildren().addAll(mainTriangle, leftEar, rightEar, innerTriangle,
                 bodyArc, leftFoot, rightFoot, leftFootDetail, rightFootDetail);
         Scene scene = new Scene(pane, 300, 300);
