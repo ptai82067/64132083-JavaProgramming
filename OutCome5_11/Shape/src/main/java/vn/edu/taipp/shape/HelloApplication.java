@@ -60,12 +60,12 @@ public class HelloApplication extends Application {
         mainTriangle.setStroke(Color.BLACK);
         mainTriangle.setFill(Color.WHITE);
 
-        // Vẽ tai trái
+// Vẽ tai trái
         Polygon leftEar = new Polygon();
         leftEar.getPoints().addAll(
-                x - 50, y + 40, // Góc trái của tai
-                x - 20, y - 30, // Đỉnh của tai
-                x, y + 40 // Góc phải của tai
+                x - 20, y + 10, // Góc trái của tai (điểm thấp hơn, gần cơ thể)
+                x - 0, y - 10, // Đỉnh của tai (nâng lên một chút)
+                x, y + 20 // Góc phải của tai
         );
         leftEar.setStroke(Color.BLACK);
         leftEar.setFill(Color.WHITE);
@@ -73,12 +73,13 @@ public class HelloApplication extends Application {
 // Vẽ tai phải
         Polygon rightEar = new Polygon();
         rightEar.getPoints().addAll(
-                x + 50, y + 40, // Góc phải của tai
-                x + 20, y - 30, // Đỉnh của tai
-                x, y + 40 // Góc trái của tai
+                x + 20, y + 10, // Góc phải của tai (điểm thấp hơn, gần cơ thể)
+                x + -0, y - 10, // Đỉnh của tai (nâng lên một chút)
+                x, y + 20 // Góc trái của tai
         );
         rightEar.setStroke(Color.BLACK);
         rightEar.setFill(Color.WHITE);
+
 
 
         // Vẽ tam giác nhỏ bên trong
