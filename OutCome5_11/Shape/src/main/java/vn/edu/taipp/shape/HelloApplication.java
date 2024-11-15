@@ -75,7 +75,7 @@ public class HelloApplication extends Application {
         leftFootDetail.setStroke(Color.RED);
         leftFootDetail.setFill(Color.TRANSPARENT);
 
-        // Vẽ trang trí trên chân phải (hình cung)
+        // Vẽ trang trí trên chân phải (hình cung) 
         Arc rightFootDetail = new Arc(190, 250, 10, 10, 0, 180);
         rightFootDetail.setStroke(Color.RED);
         rightFootDetail.setFill(Color.TRANSPARENT);
