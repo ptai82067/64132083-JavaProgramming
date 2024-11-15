@@ -58,36 +58,49 @@ public class HelloApplication extends Application {
         innerTriangle.setFill(Color.TRANSPARENT);
 
         // Vẽ thân hình (hình cung)
-        Arc bodyArc = new Arc(150, 210, 100, 50, 0, 180);
+        Arc bodyArc = new Arc(150, 210, 100, 50, 180, 180);
         bodyArc.setStroke(Color.BLACK);
         bodyArc.setFill(Color.TRANSPARENT);
         bodyArc.setType(ArcType.OPEN);
 
         // Vẽ chân trái
-        Circle leftFoot = new Circle(110, 260, 20);
+        Circle leftFoot = new Circle(110, 265, 20);
         leftFoot.setStroke(Color.BLACK);
         leftFoot.setFill(Color.TRANSPARENT);
 
         // Vẽ chân phải
-        Circle rightFoot = new Circle(190, 260, 20);
+        Circle rightFoot = new Circle(190, 265, 20);
         rightFoot.setStroke(Color.BLACK);
         rightFoot.setFill(Color.TRANSPARENT);
 
-        // Vẽ trang trí trên chân trái (hình cung)
-        Arc leftFootDetail = new Arc(110, 260, 10, 10, 0, 180);
-        leftFootDetail.setStroke(Color.RED);
-        leftFootDetail.setFill(Color.TRANSPARENT);
-        leftFootDetail.setType(ArcType.OPEN);
+        // Vẽ trang trí trên chân trái (hình cung nửa trên)
+        Arc leftFootDetailTop = new Arc(110, 260, 10, 10, 0, 180);
+        leftFootDetailTop.setStroke(Color.RED);
+        leftFootDetailTop.setFill(Color.TRANSPARENT);
+        leftFootDetailTop.setType(ArcType.OPEN);
+
+// Vẽ trang trí trên chân trái (hình cung nửa dưới)
+        Arc leftFootDetailBottom = new Arc(110, 260, 10, 10, 180, 180);
+        leftFootDetailBottom.setStroke(Color.RED);
+        leftFootDetailBottom.setFill(Color.TRANSPARENT);
+        leftFootDetailBottom.setType(ArcType.OPEN);
 
         // Vẽ trang trí trên chân phải (hình cung)
-        Arc rightFootDetail = new Arc(190, 260, 10, 10, 0, 180);
-        rightFootDetail.setStroke(Color.RED);
-        rightFootDetail.setFill(Color.TRANSPARENT);
-        rightFootDetail.setType(ArcType.OPEN);
+        Arc rightFootDetailTop = new Arc(190, 260, 10, 10, 0, 180);
+        rightFootDetailTop.setStroke(Color.RED);
+        rightFootDetailTop.setFill(Color.TRANSPARENT);
+        rightFootDetailTop.setType(ArcType.OPEN);
+
+        Arc rightFootDetailBottom = new Arc(190, 260, 10, 10, 180, 180);
+        rightFootDetailBottom.setStroke(Color.RED);
+        rightFootDetailBottom.setFill(Color.TRANSPARENT);
+        rightFootDetailBottom.setType(ArcType.OPEN);
+
 
         // Thêm tất cả các phần tử vào pane
         pane.getChildren().addAll(mainTriangle, leftEar, rightEar, innerTriangle,
-                bodyArc, leftFoot, rightFoot, leftFootDetail, rightFootDetail);
+                bodyArc, leftFoot, rightFoot, leftFootDetailTop, leftFootDetailBottom,rightFootDetailTop,rightFootDetailBottom );
+
         Scene scene = new Scene(pane, 300, 300);
         stage.setTitle("Vẽ Hình");
         stage.setScene(scene);
