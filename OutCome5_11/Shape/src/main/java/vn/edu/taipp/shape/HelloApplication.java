@@ -2,6 +2,7 @@ package vn.edu.taipp.shape;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Arc;
@@ -10,13 +11,32 @@ import javafx.scene.shape.Circle;
 import javafx.scene.shape.Polygon;
 import javafx.stage.Stage;
 
-import java.io.IOException;
-
 public class HelloApplication extends Application {
+
     @Override
-    public void start(Stage stage) throws IOException {
+    public void start(Stage stage) {
         Pane pane = new Pane();
 
+        // Tạo nút để vẽ hình
+        Button drawButton = new Button("Vẽ Hình");
+        drawButton.setLayoutX(120);
+        drawButton.setLayoutY(10);
+        drawButton.setOnAction(e -> drawShape(pane));  // Khi nhấn nút sẽ vẽ hình
+
+        // Vẽ hình khi nhấn chuột
+        pane.setOnMouseClicked(e -> drawShapeAtMousePosition(pane, e.getX(), e.getY())); // Khi nhấn chuột vẽ tại vị trí chuột
+
+        // Thêm nút vào giao diện
+        pane.getChildren().add(drawButton);
+
+        Scene scene = new Scene(pane, 300, 300);
+        stage.setTitle("Vẽ Hình");
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    // Phương thức để vẽ hình khi nhấn nút
+    private void drawShape(Pane pane) {
         // Vẽ tam giác lớn
         Polygon mainTriangle = new Polygon();
         mainTriangle.getPoints().addAll(
@@ -97,14 +117,57 @@ public class HelloApplication extends Application {
         rightFootDetailBottom.setType(ArcType.OPEN);
 
 
-        // Thêm tất cả các phần tử vào pane 
+        // Thêm tất cả các phần tử vào pane
         pane.getChildren().addAll(mainTriangle, leftEar, rightEar, innerTriangle,
-                bodyArc, leftFoot, rightFoot, leftFootDetailTop, leftFootDetailBottom,rightFootDetailTop,rightFootDetailBottom );
+                bodyArc, leftFoot, rightFoot, leftFootDetailTop, leftFootDetailBottom,
+                rightFootDetailTop, rightFootDetailBottom);
+    }
 
-        Scene scene = new Scene(pane, 300, 300);
-        stage.setTitle("Vẽ Hình");
-        stage.setScene(scene);
-        stage.show();
+    // Phương thức để vẽ hình tại vị trí chuột
+    private void drawShapeAtMousePosition(Pane pane, double x, double y) {
+        // Vẽ tam giác lớn tại vị trí chuột
+        Polygon mainTriangle = new Polygon();
+        mainTriangle.getPoints().addAll(
+                x, y, // Điểm đỉnh
+                x - 100, y + 150, // Góc trái
+                x + 100, y + 150 // Góc phải
+        );
+        mainTriangle.setStroke(Color.BLACK);
+        mainTriangle.setFill(Color.WHITE);
+
+        // Vẽ tai trái
+        Polygon leftEar = new Polygon();
+        leftEar.getPoints().addAll(
+                x - 50, y + 110, // Góc trái của tai
+                x, y - 100, // Đỉnh của tai
+                x - 20, y + 40 // Góc phải của tai
+        );
+        leftEar.setStroke(Color.BLACK);
+        leftEar.setFill(Color.WHITE);
+
+        // Vẽ tai phải
+        Polygon rightEar = new Polygon();
+        rightEar.getPoints().addAll(
+                x + 50, y + 110, // Góc phải của tai
+                x, y - 100, // Đỉnh của tai
+                x + 20, y + 40 // Góc trái của tai
+        );
+        rightEar.setStroke(Color.BLACK);
+        rightEar.setFill(Color.WHITE);
+
+        // Vẽ tam giác nhỏ bên trong
+        Polygon innerTriangle = new Polygon();
+        innerTriangle.getPoints().addAll(
+                x, y + 80, // Điểm đỉnh
+                x - 20, y + 120, // Góc trái
+                x + 20, y + 120  // Góc phải
+        );
+        innerTriangle.setStroke(Color.RED);
+        innerTriangle.setFill(Color.TRANSPARENT);
+        innerTriangle.setRotate(180);
+
+        // Thêm tất cả các phần tử vào pane
+        pane.getChildren().addAll(mainTriangle, leftEar, rightEar, innerTriangle);
     }
 
     public static void main(String[] args) {
