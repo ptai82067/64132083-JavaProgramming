@@ -97,7 +97,7 @@ public class HelloApplication extends Application {
         rightFootDetailBottom.setType(ArcType.OPEN);
 
 
-        // Thêm tất cả các phần tử vào pane
+        // Thêm tất cả các phần tử vào pane 
         pane.getChildren().addAll(mainTriangle, leftEar, rightEar, innerTriangle,
                 bodyArc, leftFoot, rightFoot, leftFootDetailTop, leftFootDetailBottom,rightFootDetailTop,rightFootDetailBottom );
 
