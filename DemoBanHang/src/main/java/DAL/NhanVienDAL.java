@@ -26,10 +26,9 @@ public class NhanVienDAL {
 		// hiện kết quả
 		while(ketQua.next()) {
 			
-			if(tk==ketQua.getString("taikhoan")&& 
-					ComonUtils.encodePas(mk) == ketQua.getString("matkhau")) {
+			if(tk.equals(ketQua.getString("taikhoan"))&& 
+					ComonUtils.encodePas(mk).equals(ketQua.getString("matkhau")) ) {
 				DBUtils.closeConnection(conn);
-				System.out.println("2131098wwilejw");
 				return true;
 			}
 		}

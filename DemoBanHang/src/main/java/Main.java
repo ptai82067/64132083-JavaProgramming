@@ -19,6 +19,10 @@ public class Main {
 		System.out.print("Mật khẩu: ");
 		String mk = scanner.nextLine();
 		
+//		bll.dangKiTaiKhoan(tk, mk);
+		
+		
+		
 //		System.out.println(ComonUtils.encodePas(mk));
 		
 		if(bll.checkLogin(tk, mk) == true) {
