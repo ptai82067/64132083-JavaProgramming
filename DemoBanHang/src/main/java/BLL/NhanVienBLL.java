@@ -13,9 +13,9 @@ public class NhanVienBLL {
 		return kq;
 	}
 	
-	public boolean dangKiTaiKhoan(String tenDN, String matkhau) {
+	public boolean dangKiTaiKhoan(String tenDN, String matkhau) throws SQLException {
 		// kiem tra tinh dung dang
-		return true;
+		return nvDAL.createAccout(matkhau, matkhau);
 	}
 	
 	public boolean checkLogin(String tenDN, String matKhau) throws SQLException {
