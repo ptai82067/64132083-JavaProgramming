@@ -33,9 +33,9 @@ public class DatabaseTemplate <T extends  DBObject>{
       // Đăng ký driver
       Class.forName("com.mysql.cj.jdbc.Driver");
       // Chuẩn bị chuỗi kết nối
-      String connectionURL = "jdbc:mysql://localhost:3306/demobanhang";
+      String connectionURL = "jdbc:mysql://sql12.freesqldatabase.com:3306/sql12745354";
       // Mở kết nối
-      con = DriverManager.getConnection(connectionURL, "root", "");
+      con = DriverManager.getConnection(connectionURL, "sql12745354", "AsIIv5Fb4i");
       System.out.println("Connection successful!");
     } catch (ClassNotFoundException e) {
       System.out.println("MySQL Driver not found!");
