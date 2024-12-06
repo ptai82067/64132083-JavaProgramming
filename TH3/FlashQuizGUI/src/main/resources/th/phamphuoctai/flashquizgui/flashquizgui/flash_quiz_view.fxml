@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="732.0" prefWidth="1219.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="th.phamphuoctai.flashquizgui.flashquizgui.FlashQuizViewController">
+    <!-- Bảng điều hướng bên trái -->
+    <left>
+        <VBox prefHeight="730.0" prefWidth="196.0" spacing="10" style="-fx-background-color: #008000; -fx-padding: 10; -fx-border-radius: 20;">
+            <Label style="-fx-font-size: 18; -fx-text-fill: white;" text="FLASH QZ" />
+            <Button fx:id="btnQuestion10" prefHeight="31.0" prefWidth="194.0" text="Câu 10" />
+            <Button fx:id="btnQuestion9" prefHeight="31.0" prefWidth="209.0" text="Câu 9" />
+            <Button fx:id="btnQuestion8" prefHeight="31.0" prefWidth="197.0" text="Câu 8" />
+            <Button fx:id="btnQuestion7" prefHeight="31.0" prefWidth="186.0" text="Câu 7" />
+            <Button fx:id="btnQuestion6" prefHeight="31.0" prefWidth="222.0" text="Câu 6" />
+            <Button fx:id="btnQuestion5" prefHeight="31.0" prefWidth="203.0" text="Câu 5" />
+            <Button fx:id="btnQuestion4" prefHeight="31.0" prefWidth="212.0" text="Câu 4" />
+            <Button fx:id="btnQuestion3" prefHeight="31.0" prefWidth="194.0" text="Câu 3" />
+            <Button fx:id="btnQuestion2" prefHeight="31.0" prefWidth="208.0" text="Câu 2" textFill="#6b3b3b" />
+            <Button fx:id="btnQuestion1" prefHeight="31.0" prefWidth="224.0" style="-fx-background-color: red;" text="Câu 1" textFill="WHITE" />
+        </VBox>
+    </left>
+
+    <!-- Nội dung chính -->
+    <center>
+      <AnchorPane style="-fx-background-color: #4169e1;">
+         <children>
+                 <Button fx:id="btnA1" layoutX="73.0" layoutY="369.0" onAction="#handelBtnA" prefHeight="55.0" prefWidth="61.0" style="-fx-background-color: white; -fx-text-fill: black; -fx-background-radius: 50;" text="A" />
+               <!-- Phần hiển thị câu hỏi -->
+               <Label fx:id="lblQuestion" alignment="CENTER" layoutX="6.0" layoutY="14.0" prefHeight="334.0" prefWidth="928.0" style="-fx-font-size: 32; -fx-text-fill: white; -fx-padding: 10; -fx-border-color: white; -fx-border-width: 2; -fx-border-radius: 30;" text="Lời hỏi Câu 1 ở đây" />
+            <AnchorPane />
+                 <Button fx:id="btnA" layoutX="145.0" layoutY="367.0" onAction="#handelBtnA" prefHeight="59.0" prefWidth="610.0" text="Phương án A" />
+            <Button fx:id="btnB1" layoutX="73.0" layoutY="444.0" onAction="#handelBtnB" prefHeight="55.0" prefWidth="61.0" style="-fx-background-color: white; -fx-text-fill: black; -fx-background-radius: 50;" text="B" />
+            <Button fx:id="btnB" layoutX="145.0" layoutY="442.0" onAction="#handelBtnB" prefHeight="59.0" prefWidth="610.0" text="Phương án B" />
+            <Button fx:id="btnC1" layoutX="73.0" layoutY="528.0" onAction="#handelBtnC" prefHeight="55.0" prefWidth="61.0" style="-fx-background-color: white; -fx-text-fill: black; -fx-background-radius: 50;" text="C" />
+            <Button fx:id="btnC" layoutX="145.0" layoutY="526.0" onAction="#handelBtnC" prefHeight="59.0" prefWidth="610.0" text="Phương án C" />
+            <Button fx:id="btnD1" layoutX="73.0" layoutY="611.0" onAction="#handelBtnD" prefHeight="55.0" prefWidth="61.0" style="-fx-background-color: white; -fx-text-fill: black; -fx-background-radius: 50;" text="D" />
+            <Button fx:id="btnD" layoutX="145.0" layoutY="609.0" onAction="#handelBtnD" prefHeight="59.0" prefWidth="610.0" text="Phương án D" />
+         </children>
+      </AnchorPane>
+    </center>
+
+    <!-- Phần điểm ở góc -->
+    <right>
+      <AnchorPane prefHeight="731.0" prefWidth="79.0" style="-fx-background-color: #4169e1;">
+         <children>
+               <Label layoutX="20.0" layoutY="611.0" style="-fx-font-size: 18; -fx-font-weight: bold;" text="Điểm" textFill="#fffefe" />
+               <Label fx:id="lblScore" alignment="TOP_CENTER" layoutX="16.0" layoutY="646.0" prefHeight="35.0" prefWidth="53.0" style="-fx-font-size: 24; -fx-border-color: black; -fx-border-width: 2; -fx-padding: 10;" text="0" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+    </right>
+</BorderPane>
